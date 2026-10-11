@@ -121,7 +121,14 @@ Future work could include:
 
 
 ## Reproducibility
+Download the Excel dataset from Mendeley Data.
 
-The analysis is documented in `steel_yield_strength.ipynb`.
+Create or open the data/ directory in the project folder. 
+
+Place the downloaded Excel file in data/ and rename it to Steel with labelled clusters copy.xlsx if necessary.
+
+Run `steel_yield_strength.ipynb` from the project folder.
+
+The notebook expects the dataset at data/Steel with labelled clusters copy.xlsx
 
 Install the required Python packages listed in `requirements.txt` before running the notebook.
