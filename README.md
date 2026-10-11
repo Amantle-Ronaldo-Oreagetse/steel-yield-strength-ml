@@ -14,25 +14,43 @@ Can machine-learning models predict the yield strength of steels from chemical c
 
 To investigate whether incorporating processing information alongside chemical composition improves machine-learning prediction of steel yield strength.
 
-## Dataset
+## Dataset Source and Attribution
 
-The dataset contains 3,234 steel records.
+### Dataset
 
-Features include:
+This project uses the **Steel Database with Labelled Clusters**, obtained from Mendeley Data. The dataset is part of the publication *A Database of Mechanical Properties of Steels* by Birbilis, Ghorbani, and Zhao (2025).
 
-- Chemical composition
-- Processing condition
-- Cluster information
-- Tempering temperature
-- Quench temperature
-- Quench-stage information
-- Reheat stages
-- Case depth
-- Round size
+The database contains 3,234 steel entries, including chemical compositions, processing conditions, mechanical properties, and processing-condition classifications grouped into 12 labelled clusters. These data provide the basis for exploring machine-learning approaches to predicting steel properties.
 
 The target variable is yield strength, measured in MPa.
 
-The original dataset is not included in this repository. Users must obtain the data from an authorised source before reproducing the analysis.
+### Accessing the Dataset
+
+The original dataset is publicly available on Mendeley Data:
+
+* **Dataset title:** A Database of Mechanical Properties of Steels
+* **Repository:** Mendeley Data
+* **Direct link:** https://data.mendeley.com/datasets/jmwb9ddd43/1
+* **DOI:** https://doi.org/10.17632/jmwb9ddd43.1
+* **File used:** `Steel database with labelled clusters.xlsx`
+* **Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+To access the data:
+
+1. Visit the [Mendeley Data dataset page](https://data.mendeley.com/datasets/jmwb9ddd43/1).
+2. Locate the file named `Steel database with labelled clusters.xlsx`.
+3. Download the file using the available download option.
+4. Place the downloaded file in the appropriate directory of your project and follow the data-loading instructions in the project notebooks or scripts.
+
+
+### Attribution and Usage
+
+The original dataset was created by Nick Birbilis, Marzie Ghorbani, and Shujing Zhao. It is used in this project for educational and research purposes to investigate machine-learning methods for steel property analysis and prediction.
+
+The original dataset is attributed to its authors. Any data cleaning, preprocessing, feature selection, model development, evaluation, and visualisations performed in this project are part of the project's own analytical workflow.
+
+Users wishing to reuse or redistribute the dataset should consult the original Mendeley Data record and comply with its CC BY 4.0 licence, including appropriate attribution.
+
 
 ## Methodology
 
